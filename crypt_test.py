@@ -18,8 +18,8 @@ def test_1subCip():
 def test_2subCip():
   assert crypt.subCipher("_aeioubcdfghjklmnpqrstvwxyz", "cohhlzvlphi", False) == 'hello world'
   
-def test_1subCip():
+def test_3subCip():
   assert crypt.subCipher("_aeiouzyxwvtsrqpnmlkjhgfdbc", "hello world", True) == 'yottqcgqmti'
 
-def test_2subCip():
+def test_4subCip():
   assert crypt.subCipher("_aeioubcdfghjklmnpqrstvwxyz", "yottqcgqmti", False) == 'hello world'
